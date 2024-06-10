@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    position: relative;
+}
+.container .sidebar{
+    position: fixed;
+    width: 290px;
+    height: 100%;
+    background:orangered;
+    padding-top: 45px;
+    padding-left: 45px;
+    margin-bottom: 80px;
+}
+.container .sidebar h1{
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.container .sidebar ul li{
+    padding: 15px;
+ 
+}
+.container .sidebar ul li a{
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+.container .sidebar ul li a:hover{
+background-color: white;
+color: orangered;
+width: 80px;
+border-radius: 2px;
+}
+.container .main_content{
+    width: 100%;
+    padding:80px;
+    margin-left:250px;
+    
+}
+.container .main_content .header{
+    font-size: 70px;
+    margin-bottom: 30px;
+   
+}
+.container .main_content .showcase{
+    font-size: 50px;
+      
+}
+.container .main_content .showcase div{
+ font-size: 50px;
+ color: orangered;
+ margin-bottom: 30px;
+
+}
+.container .main_content .border{
+    border-top: 8px solid orangered;
+    width: 5%;
+    border-radius: 3px; 
+}
+
+.container .main_content .images .img-1{
+      width: 528px;
+      height: auto;
+      margin-right: 20px;
+}
+.container .main_content .images .img-2{
+    width: 528px;
+    height: auto;
+    margin-right: 20px;
+}
+.container .main_content .images .img-3{
+    width: 528px;
+    height: auto;
+    margin-right: 20px;
+  
+}
+.container .main_content .images .img-4{
+    width: 528px;
+    height: auto;
+    margin-right: 20px;
+}
+.container .main_content .images .img-5{
+    width: 528px;
+    height: auto;
+    margin-right: 20px;
+}
+.container .main_content .images .img-6{
+    width: 528px;
+    height: auto;
+    margin-right: 20px;
+}
+.container .main_content .services{
+    font-size: 50px;
+    color: orangered;
+    margin-bottom: 30px;
+}
+.container .main_content .border-2{
+    border-top: 8px solid orangered;
+    width: 5%;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.container .main_content .passage p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+   
+}
+.container .main_content .designers-container{
+    font-size: 50px;
+    color: orangered;
+    margin-top: 100px;
+}
+.container .main_content .border-3{
+    border-top: 8px solid orangered;
+    width: 5%;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.container .main_content .passage-1 p{
+    font-size: 20px;
+    color: black;
+    margin-top: 30px; 
+}
+.container .main_content .designers{
+    font-size: 20px;
+    color: black;
+    font-family:'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+.container .main_content .card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between cards */
+    margin-top: 20px;
+}
+
+.container .main_content .card-container .card {
+    width: calc(33.33% - 20px); /* Adjust the width of each card */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(107, 103, 103, 0.1);
+    background-color: rgb(238, 232, 232);
+}
+
+.container .main_content .card-container .card .card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container .main_content .card-container .card .card-content {
+    padding: 20px;
+}
+
+.container .main_content .card-container .card .card-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container .main_content .card-container .card .card-content.position {
+    color: #333; /* Adjust color for position */
+    font-style: italic;
+}
+.container .main_content .package{
+    font-size: 50px;
+    color: orangered;
+    margin-top: 100px;
+   
+}
+.container .main_content .border-4{
+    border-top: 8px solid orangered;
+    width: 5%;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+
+.container .main_content .package-text{
+    font-size: 20px;
+    color: black;
+    margin-top: 30px; 
+}
+.container .main_content .packages-table{
+    display: flex;
+    justify-content: space-between;
+}
+.container .main_content .packages-table table {
+    background-color: rgb(234, 234, 234);
+    border-collapse: collapse;
+    width: 49.5%;
+}
+.container .main_content .packages-table table th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+.container .main_content .packages-table .table-1 tr:first-child {
+    background-color: gray;
+    height: 60px;
+    color: white;
+  }
+.container .main_content .packages-table .table-2 tr:first-child{
+    background-color: orangered;
+    color: white;
+    height: 60px;
+    border: none;
+}
+.container .main_content .packages-table .plus-btn{
+   width: 20px;
+   background-color: rgb(234, 234, 234);
+   color: black;
+}
+.container .main_content .packages-table .minus-btn{
+    width: 20px;
+   background-color: rgb(234, 234, 234);
+   color: black;
+}
+
+.container .main_content .packages-table .sign-up-btn {
+    background-color: orangered;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+.container .main_content .contac{
+    font-size: 50px;
+    color: orangered;
+    margin-top: 70px;
+   
+}
+.container .main_content .border-5{
+    border-top: 8px solid orangered;
+    width: 5%;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+.container .main_content.contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="message"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+
+
+
+
